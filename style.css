@@ -3,25 +3,34 @@
 body {
 /*  font-family: monospace;*/
 font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
   margin: 2em;
   width: 100%;
   height: 100%;
-  background-color: #D7FAE3;
+  line-height: 50%;
+  background-image: linear-gradient(-90deg,#c9c9c9 0%,#bbafd8 30%, #526033 100%);
+/*  background-color: #D7FAE3;*/
 
 
 }
 
 h1 {
-  color: #000000;
-  font-size: 28pt;
-  font-kerning: 40pt;
+  color: #f4cdf7;
+  font-size: 38pt;
+  line-height: 40%;
+  white-space: nowrap;
+/*  font-kerning: 40pt;*/
 }
+
 .special-h2{
   margin-top:0;
 }
+
 h2 {
-  font-size: 10pt;
-/*   margin-top:0; */
+  color: #f4f92b;
+  font-size: 12pt;
+/*  font-weight: 120%;*/
+   margin-top:0; 
 }
 
 button {
@@ -31,7 +40,7 @@ button {
   color: white;
   padding: 10px 10px;
   width: 100%;
-  /*   text-align: center; */
+     text-align: center; 
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -41,7 +50,12 @@ button {
 
 p {
   font-size: 12pt;
-  line-height: 18pt;
+  line-height: 4pt;
+}
+
+p1 {
+  font-size: 12pt;
+  line-height: 14pt;
 }
 
 .left {
@@ -76,8 +90,8 @@ p {
 }
 
 .content {
-  padding: 2%;
-  width: 50%;
+  padding: 0%;
+  width: 70%;
   display: inline-block;
   float: left;
   /*   background-color:yellow; */
@@ -92,6 +106,7 @@ li {
   font-size: 12pt;
   list-style-type: none;
   padding-bottom: 1em;
+  line-height: 4pt;
 }
 
 li.bullet {
@@ -105,7 +120,7 @@ li.bullet a {
 }
 
 li a {
-  color: black;
+  color: #f4f92b;
   /*   text-decoration: none; */
 }
 
@@ -242,3 +257,13 @@ body .gist .gist-meta {
 .nav{
   display: none;
 }
+
+.float-parent-element{
+  width:150%;
+}
+
+.float-child-element{
+  float: left;
+  width: 50%;
+}
+
